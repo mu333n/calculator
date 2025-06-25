@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(167, 216, 148);
+    margin: 200px;
+}
+@media (max-width: 500px) {
+  .calulator {
+    padding: 10px;
+  }
+}
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(24, 22, 22);
+
+}
+tr td{
+    padding: 5px;
+}
+.cName{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+#result{
+    background-color: rgb(168, 240, 216);
+    text-align: right;
+    width: auto;
+    
+}
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(140, 204, 183);
+    color: black;
+    font-size: 42px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+input[type="button"].equal{
+    background-color: orange;
+}
